@@ -6,6 +6,7 @@
   font-style: normal;
 }
 
+
 /*nav bar*/
 
 .nev{
@@ -31,3 +32,287 @@
     font-weight: 700;
     color: #0D1321; 
 }
+
+/*for banner*/
+
+
+.b-cont{
+   
+    background-image: url(assets/Hero-bg.png)  ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.p1{
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+.b-heading{
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+
+    font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.sub-heading{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.b-btn{
+    padding: 21px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #0D1321;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 44px;
+}
+.mx{
+    max-width: 998px;
+}
+
+/*shaered */
+
+.s-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+}
+
+.m-text{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.m-btn{
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+}
+
+.chobi{
+    width: 274px;
+    height: 240px;
+}
+
+/* ask section start*/
+
+.s1-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.kno{
+
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 144px;
+    margin-bottom: 90px;
+    
+}
+
+.ask{
+    font-size: 32px;
+   }
+
+   .ask1{
+    font-size: 32px;
+    margin-bottom: 24px;
+   }
+
+.ans{
+    margin-bottom: 48px;
+}
+
+.first{
+    display: flex;
+   gap: 98px;
+   padding: 48px;
+   margin-bottom: 32px;
+}
+
+.alap{
+    max-width: 477px;
+}
+
+
+
+.inspiretion{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 144px 48px 144px;
+}
+
+.vedio{
+    margin: 48px 152px 151px 148px;
+    
+}
+
+.t-main{
+    font-weight: 800;
+    font-size: 24px;
+}
+.t-sub{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.t-lm{
+
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.target{
+    display: flex;
+    gap: 24px;
+    margin-left: 150px;
+    margin-bottom: 111px;
+}
+
+.target1{
+    padding: 40px;
+    background-color: #FF4C1E0D;
+    border-radius: 16px;
+}
+.target2{
+    padding: 40px;
+    background-color: #004CE80D;
+    border-radius: 16px;
+}
+
+.target3{
+    padding: 40px;
+    background-color: #FFDF000D;
+    border-radius: 16px;
+}
+
+.to-do{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 150px;
+   
+   
+}
+
+.next1 , .next2 , .next3{
+    display: flex;
+    align-items: center;
+    
+    border:#bdc0c6 solid;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.ff{
+    margin: auto;
+    text-align: center;
+}
+.im{
+    height: 108px;
+    width: 108px;
+    margin-right: 25px;
+}
+
+.for{
+    margin: auto;
+    max-width: 1000px;
+    background-image: url(assets/handshake.jpg);
+    padding: 64px 48px;
+    margin-top: 49px;
+    border: #0D1321 solid;
+    border-radius: 16px
+
+    
+}
+
+.s-head{
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.h-sub{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+textarea{
+    text-align: center;
+    padding-top: 20px;
+      margin-right: 5px; 
+      border-radius: 8px;
+      border: none;
+   }
+
+   .smt{
+    border-radius: 8px;
+    margin:0px 5px;
+    border: none;
+    color: rgb(13, 19, 33);
+  padding:15px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+   width: 100px;
+   height: 50px;
+    background-color: rgb(255, 255, 255);
+   }
+
+   .fed{
+    display: flex;
+    justify-content: center;
+   }
+
+   .for{
+    margin-bottom: 80px;
+   }
+
+   .extra{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 32px 0px;
+   }
+
+   .e-head{
+
+    font-weight: 600;
+    font-size: 20px;
+
+   }
+
+   .icon{
+    gap: 24px;
+   }
